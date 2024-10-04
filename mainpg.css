@@ -4,3 +4,11 @@
     padding: 0;
     box-sizing: border-box;
   }
+  html{
+    color: #555;
+    font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-style: 20px;
+  text-rendering: optimizeLegibility;
+
+  }
