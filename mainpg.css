@@ -10,5 +10,11 @@
   font-weight: 300;
   font-style: 20px;
   text-rendering: optimizeLegibility;
-
+  }
+  .header{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),
+    url(Resource-Omnifood-conent/hero.jpg);
+    background-size: cover;
+    height:100vh;
+    background-attachment: fixed;
   }
