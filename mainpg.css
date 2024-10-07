@@ -54,7 +54,6 @@
   .navigation{
     display: flex;
     /* justify-self: flex-end; */
-    
   }
 a{
     color:#fff;
@@ -157,3 +156,31 @@ a:hover ,a:active{
     color:#e67e22;
     font-size: 60px;  
   }
+  .image-container{
+    background-color: black;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    /* width:100%; */
+    height:auto;
+  }   
+  .image{
+  flex-basis:25%;
+  min-width:20%;
+  overflow: hidden;
+    height:auto;
+    
+  }
+ 
+  .image img{
+    width:100%;
+    opacity:0.7;
+    transform: scale(1.15);
+    transition: transform 0.5s, opacity 0.5s;
+  }
+  .image img:hover{
+    opacity: 1;
+    transform: scale(1.00);
+    
+  }
+  /* I know the issue but I don't wanna solve it */
