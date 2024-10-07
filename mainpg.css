@@ -1,186 +1,180 @@
 * {
-    /* Neccessary for all css files*/
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  html{
-    color: #555;
-    font-family: "Lato", sans-serif;
+  /* Neccessary for all css files*/
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  color: #555;
+  font-family: "Lato", sans-serif;
   font-weight: 300;
   font-style: normal;
   text-rendering: optimizeLegibility;
-  }
-  .header{
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),
+}
+.header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url(Resource-Omnifood-conent/hero.jpg);
-    background-size: cover;
-    height:100vh;
-    background-position: center;
-    background-attachment: fixed;
-    text-transform: uppercase;
-  }
-
-  .row{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-around;
-    /* max-width:1140px; */
-    /* margin:0 auto; */
-  }
-  .hero-text-box {
-    display: flex;
-    flex-direction: column;
-    width:1140px;
-    position: absolute;
-    top:50%;
-    left:50%;
-    transform: translate(-50%,-50%);
-    color:white;
-  }
-  .hero-text-box h1{
-    font-size: 290%;
-    font-weight:300;
-    word-spacing: 4%;
- }
- .bttn{
-    display: flex;
-    gap:20px;
- }
-  .logo{
-    height:100px
-  }
-  .navigation{
-    display: flex;
-    /* justify-self: flex-end; */
-  }
-a{
-    color:#fff;
-    padding: 10px 10px;
-    font-weight: 300;
-    text-decoration: none;
-    
+  background-size: cover;
+  height: 100vh;
+  background-position: center;
+  background-attachment: fixed;
+  text-transform: uppercase;
 }
-a:hover ,a:active{
-    border-bottom:3px solid #cf6d17;
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  /* max-width:1140px; */
+  /* margin:0 auto; */
 }
-  .btn{
-    padding: 10px 30px;
-    font-weight: 300;
-    text-decoration: none;
-    border-radius: 200px;
-    color: #fff;
-    
-
-  }
-  .btn:hover, .btn:active{
-    background-color: #cf6d17;
-  }
-  .btn-full{
-    background-color: #e67e22;
-    border: 1px solid #e67e22;
-    color:#fff;
-  }
-  .btn-ghost{
-    border:1px solid;
-    color:#e67e22;
-    transition:color 0.2s;
-  }
-  .btn-full:hover, .btn-full:active{
-    border: 1px solid #cf6d17;
-  }
-  .btn-ghost:hover, .btn-ghost:active{
-    border: 1px solid #cf6d17;
-    color:#fff;
-  }
-
-  h2:after{
-    display: flex;
-    height: 2px;
-    width: 100px;
-    background-color: #e67e22;
-    content: " ";
-    margin: 0 auto;
-    margin-top: 30px;
-  }
-  
-  
-.tag{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction:column ;
-    margin: 5% auto;
-    width:60%;
-    word-spacing: 4%;
+.hero-text-box {
+  display: flex;
+  flex-direction: column;
+  width: 1140px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
 }
-  .tag h2 {
-    font-size:35px;
-    font-weight: 300;
-    text-transform: uppercase;
-    font-kerning:none;
-  }
-  .tag p{
-    margin-top: 5%;
-    font-size: 20px;
+.hero-text-box h1 {
+  font-size: 290%;
+  font-weight: 300;
+  word-spacing: 4%;
+}
+.bttn {
+  display: flex;
+  gap: 20px;
+}
+.logo {
+  height: 100px;
+}
+.navigation {
+  display: flex;
+  /* justify-self: flex-end; */
+}
+a {
+  color: #fff;
+  padding: 10px 10px;
+  font-weight: 300;
+  text-decoration: none;
+}
+a:hover,
+a:active {
+  border-bottom: 3px solid #cf6d17;
+}
+.btn {
+  padding: 10px 30px;
+  font-weight: 300;
+  text-decoration: none;
+  border-radius: 200px;
+  color: #fff;
+}
+.btn:hover,
+.btn:active {
+  background-color: #cf6d17;
+}
+.btn-full {
+  background-color: #e67e22;
+  border: 1px solid #e67e22;
+  color: #fff;
+}
+.btn-ghost {
+  border: 1px solid;
+  color: #e67e22;
+  transition: color 0.2s;
+}
+.btn-full:hover,
+.btn-full:active {
+  border: 1px solid #cf6d17;
+}
+.btn-ghost:hover,
+.btn-ghost:active {
+  border: 1px solid #cf6d17;
+  color: #fff;
+}
 
-  }
-  .flex-container{
-    display: flex;
-    flex-direction:row;
-    justify-content: center;
-    gap:30px;
-    
-    
-  }
-  .flex-card{
-    display: flex;
-    flex-direction: column;
-    width:15%;
-    margin-bottom: 5% ;
-    
-    
-  }
-  .flex-card h3{
-    font-size: 20px;
-    font-weight: 300;
-    text-transform: uppercase;
-  }
-  .flex-card p{
-    margin-top: 10px;
-    font-size:18px;
+h2:after {
+  display: flex;
+  height: 2px;
+  width: 100px;
+  background-color: #e67e22;
+  content: " ";
+  margin: 0 auto;
+  margin-top: 30px;
+}
 
-  }
-  .flex-card ion-icon{
-    color:#e67e22;
-    font-size: 60px;  
-  }
-  .image-container{
-    background-color: black;
-    overflow: hidden;
-    display: flex;
-    flex-wrap: wrap;
-    /* width:100%; */
-    height:auto;
-  }   
-  .image{
-  flex-basis:25%;
-  min-width:20%;
+.tag {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 5% auto;
+  width: 60%;
+  word-spacing: 4%;
+}
+.tag h2 {
+  font-size: 35px;
+  font-weight: 300;
+  text-transform: uppercase;
+  font-kerning: none;
+}
+.tag p {
+  margin-top: 5%;
+  font-size: 20px;
+}
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 30px;
+}
+.flex-card {
+  display: flex;
+  flex-direction: column;
+  width: 15%;
+  margin-bottom: 5%;
+}
+.flex-card h3 {
+  font-size: 20px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+.flex-card p {
+  margin-top: 10px;
+  font-size: 18px;
+}
+.flex-card ion-icon {
+  color: #e67e22;
+  font-size: 60px;
+}
+.image-container {
+  background-color: black;
   overflow: hidden;
-    height:auto;
-    
-  }
- 
-  .image img{
-    width:100%;
-    opacity:0.7;
-    transform: scale(1.15);
-    transition: transform 0.5s, opacity 0.5s;
-  }
-  .image img:hover{
-    opacity: 1;
-    transform: scale(1.00);
-    
-  }
-  /* I know the issue but I don't wanna solve it */
+  display: flex;
+  flex-wrap: wrap;
+  height: auto;
+}
+.image {
+  flex-basis: 25%;
+  min-width: 20%;
+  overflow: hidden;
+  height: auto;
+}
+
+.image img {
+  width: 100%;
+  opacity: 0.7;
+  transform: scale(1.15);
+  transition: transform 0.5s, opacity 0.5s;
+}
+.image img:hover {
+  opacity: 1;
+  transform: scale(1);
+}
+.page {
+  max-width: 1140px;
+}
+/* I know the issue but I don't wanna solve it */
