@@ -39,7 +39,7 @@
     color:white;
   }
   .hero-text-box h1{
-    font-size: 240%;
+    font-size: 290%;
     font-weight:300;
     word-spacing: 4%;
  }
@@ -49,9 +49,6 @@
  }
   .logo{
     height:100px
-  }
-  .nav-bar{
-    
   }
   .navigation{
     display: flex;
@@ -96,4 +93,42 @@ a:hover ,a:active{
   .btn-ghost:hover, .btn-ghost:active{
     border: 1px solid #cf6d17;
     color:#fff;
+  }
+
+  h2:after{
+    display: flex;
+    height: 2px;
+    width: 100px;
+    background-color: #e67e22;
+    content: " ";
+    margin: 0 auto;
+    margin-top: 30px;
+  }
+  .flex-container{
+    display: flex;
+    flex-direction:row;
+    
+  }
+  
+.tag{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column ;
+    margin: 5% auto;
+    width:60%
+}
+  .tag h2 {
+    font-size:35px;
+    font-weight: 300;
+    text-transform: uppercase;
+  }
+  .tag p{
+    margin-top: 5%;
+    font-size: 20px;
+  }
+  .flex-card{
+    display: flex;
+    flex-direction: column;
+
   }
