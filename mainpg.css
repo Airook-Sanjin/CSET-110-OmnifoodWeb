@@ -175,9 +175,9 @@ h2:after {
 .page {
   display: flex;
   align-items: center;
-  /* justify-content: center; */
+  justify-content: center;
   flex-direction: column;
-  margin-top: 5%;
+  padding-top: 5%;
   background-color: hsl(0, 0%, 95%);
 }
 .page h2 {
@@ -234,22 +234,23 @@ h2:after {
   width: auto;
   margin-right: 10px;
 }
-.article h2 {
+.cities h2 {
   font-size: 40px;
   font-weight: 300;
   text-transform: uppercase;
 }
-.article {
+.cities {
   display: flex;
-  align-content: center;
   flex-wrap: wrap;
   flex-direction: column;
   align-items: center;
   margin-top:5%;
-  flex-grow:1;
+  height: 10%;
+  
 }
 .city-card-containers {
   display: flex;
+  flex-grow: 1;
   flex-wrap:wrap;
   margin-top:4%;
   gap:4%;
@@ -259,41 +260,42 @@ h2:after {
 .flex-city-cards{
   display:flex;
   flex-direction: column;
-  max-width:22%;
-  
-  height:1%;
-  
+  width:22%;
+  /* height: auto; */
+  column-gap: 10%;
 }
 .flex-city-cards h3{
   font-weight: 300;
   font-size: 25px;
   text-transform: uppercase;
 }
-.stats a{
+.flex-stat a{
   color: #cf6d17;
-  /* padding:10px 10px; */
-  text-decoration:underline;
-  /* font-weight: 300; */
+  
+  text-decoration:none;
+  
 }
-.stats a:link,
-.stats a:visited {
-  border: 0;
+.flex-stat a:link,
+.flex-stat a:visited {
+  border-bottom: 1px solid #e67e22;
+  padding:2px 1px
 }
 
 .flex-city-cards ion-icon{
   color:#e67e22;
   /* font-size: 20px; */
 }
-.stats{
+.stat-container{
 display:flex;
-flex-wrap: wrap;
-
-gap:5%;
+flex-direction: column;
 font-size: 20px;
-align-items: center;
+row-gap: 15%;
+/* align-items: center; */
 }
-.stats p{
-  width:80% ;
+.flex-stat{
+  column-gap:10%;
+  
+  display:flex ;
 }
 
 /* I know the issue but I don't wanna solve it */
