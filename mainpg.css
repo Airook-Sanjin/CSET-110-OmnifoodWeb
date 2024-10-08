@@ -297,5 +297,52 @@ row-gap: 15%;
   
   display:flex ;
 }
-
+.testimonials{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(Resource-Omnifood-conent/back-customers.jpg);
+    background-attachment: fixed;
+    color:white;
+}
+.testimonials h2{
+  color:white;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+.test-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  
+  gap:5%;
+}
+.quote-containers{
+  display: flex;
+  flex-direction: column;
+  font-weight: 300;
+  padding:2%;
+  font-style: italic;
+  line-height: 145%;
+  position: relative;
+  margin-top: 10%;
+  width:24%;
+}
+.quote-containers::before{
+  content:"\201c";
+  font-size: 200px;
+  display:flex;
+  position:absolute;
+  top: -5px;
+  left:-5px;
+}
+.person-container{
+  display:flex;
+  align-items: center;
+  margin-top:5%;
+}
+.person-container img{
+  border-radius:100%;
+  width:50px;
+}
 /* I know the issue but I don't wanna solve it */
