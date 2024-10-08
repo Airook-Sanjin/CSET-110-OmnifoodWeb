@@ -178,7 +178,7 @@ h2:after {
   justify-content: center;
   flex-direction: column;
   padding-top: 5%;
-  background-color: hsl(0, 0%, 95%);
+  background-color: #f4f4f4;
 }
 .page h2 {
   font-size: 40px;
@@ -344,5 +344,24 @@ row-gap: 15%;
 .person-container img{
   border-radius:100%;
   width:50px;
+}
+.subscription{
+  background-color: #f4f4f4;
+}
+.subscription h2{
+  text-transform: uppercase;
+  font-size: 40px;
+  font-weight: 300;
+  text-align:center;
+}
+.subs-container{
+  display:flex;
+  justify-content: center;
+  gap:5%;
+}
+.subs-card{
+  background-color: #fcfcfc;
+  box-shadow: 0 2px 2px #cac5c5;
+  padding:2%;
 }
 /* I know the issue but I don't wanna solve it */
