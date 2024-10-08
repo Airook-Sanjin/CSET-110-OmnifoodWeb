@@ -175,6 +175,34 @@ h2:after {
   transform: scale(1);
 }
 .page {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  flex-direction: column;
+}
+.page h2 {
+  font-size: 50px;
+  font-weight: 300;
+}
+.download-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
   max-width: 1140px;
+}
+.li {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+.instruct-container h3 {
+  border: 3px solid #e67e22;
+  width: 40px;
+  padding: 11px;
+  border-radius: 100%;
+}
+#phone {
+  width: 20%;
 }
 /* I know the issue but I don't wanna solve it */
