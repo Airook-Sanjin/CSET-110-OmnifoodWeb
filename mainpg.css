@@ -26,8 +26,6 @@ html {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-around;
-  /* max-width:1140px; */
-  /* margin:0 auto; */
 }
 .hero-text-box {
   display: flex;
@@ -180,6 +178,7 @@ h2:after {
   /* justify-content: center; */
   flex-direction: column;
   margin-top: 5%;
+  background-color: hsl(0, 0%, 95%);
 }
 .page h2 {
   font-size: 40px;
@@ -224,6 +223,7 @@ h2:after {
 }
 #phone {
   width: 19%;
+  margin-left:5%;
 }
 
 .btn-app:link,
