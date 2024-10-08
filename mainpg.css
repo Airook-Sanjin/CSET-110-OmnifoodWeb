@@ -194,7 +194,7 @@ h2:after {
   max-width: 1140px;
   margin-top: 5%;
 }
-.downloadbtn{
+.downloadbtn {
   margin-top: 8%;
 }
 .li {
@@ -203,19 +203,18 @@ h2:after {
   margin-top: 5%;
   font-size: 20px;
 }
-.li p{
- width:100%;
- margin-left:5%
+.li p {
+  width: 100%;
+  margin-left: 5%;
 }
-.instruct-container{
-  display:flex ;
+.instruct-container {
+  display: flex;
   flex-direction: column;
-  width:48%;
-  
+  width: 48%;
 }
 .instruct-container h3 {
   border: 2px solid #e67e22;
-  
+
   padding: 10px 17px;
   border-radius: 100%;
   color: #e67e22;
@@ -223,7 +222,7 @@ h2:after {
 }
 #phone {
   width: 19%;
-  margin-left:5%;
+  margin-left: 5%;
 }
 
 .btn-app:link,
@@ -235,4 +234,66 @@ h2:after {
   width: auto;
   margin-right: 10px;
 }
+.article h2 {
+  font-size: 40px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+.article {
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  margin-top:5%;
+  flex-grow:1;
+}
+.city-card-containers {
+  display: flex;
+  flex-wrap:wrap;
+  margin-top:4%;
+  gap:4%;
+  width: 1140px;
+  height:430px;
+}
+.flex-city-cards{
+  display:flex;
+  flex-direction: column;
+  max-width:22%;
+  
+  height:1%;
+  
+}
+.flex-city-cards h3{
+  font-weight: 300;
+  font-size: 25px;
+  text-transform: uppercase;
+}
+.stats a{
+  color: #cf6d17;
+  /* padding:10px 10px; */
+  text-decoration:underline;
+  /* font-weight: 300; */
+}
+.stats a:link,
+.stats a:visited {
+  border: 0;
+}
+
+.flex-city-cards ion-icon{
+  color:#e67e22;
+  /* font-size: 20px; */
+}
+.stats{
+display:flex;
+flex-wrap: wrap;
+
+gap:5%;
+font-size: 20px;
+align-items: center;
+}
+.stats p{
+  width:80% ;
+}
+
 /* I know the issue but I don't wanna solve it */
