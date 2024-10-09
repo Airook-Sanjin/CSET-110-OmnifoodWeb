@@ -180,7 +180,7 @@ h2:after {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  padding-top: 5%;
+  padding: 5% 0;
   background-color: #f4f4f4;
 }
 .page h2 {
@@ -418,7 +418,7 @@ h2:after {
   justify-content: center;
 }
 .form-page {
-  padding: 80px 0;
+  padding-top: 80px;
   display: flex;
   flex-direction: column;
   /* flex-wrap: wrap; */
@@ -431,21 +431,29 @@ h2:after {
 }
 .iframe-container{
 display:flex;
+justify-content: flex-end;
 position: relative;
+/* width:100%; */
+padding-top: 40px;
 }
 .form-container {
   display: flex;
   flex-wrap: wrap;
-  flex-direction: column;
-  align-items: flex-start;
-  align-content: flex-end;
-  background-color: hsl(0, 0%, 80%, 50%);
+  /* flex-direction: column; */
+  /* align-items: flex-start; */
+  /* align-content: flex-end; */
+  background-color: hsl(0, 0%, 80%, 90%);
   max-width: 30%;
+  margin-right: 10px;
   padding: 2% 0;
   z-index: 10;
+  flex-grow: 1;
 }
 iframe {
-  flex-grow: 1;
+  /* flex-shrink: 1; */
+  position:absolute;
+  width: 100%;
+  height: 100%;
   z-index: 1;
 }
 .form-section {
@@ -477,18 +485,22 @@ input[type="submit"] {
   justify-self: center;
 }
 .footer {
-  position: relative;
-  z-index: 10;
   display: flex;
+  flex-direction: column;
+text-align: center;
   flex-wrap: wrap;
   background-color: #555;
-  padding: 60px 0;
+  padding: 30px 0;
+  color: #9c9c9c;
+  position: relative;
+  z-index: 10;
 }
 .foot-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
   width: 100%;
+ 
 }
 .about-links a {
   color: #9c9c9c;
