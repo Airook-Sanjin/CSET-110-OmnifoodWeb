@@ -302,6 +302,7 @@ row-gap: 15%;
     url(Resource-Omnifood-conent/back-customers.jpg);
     background-attachment: fixed;
     color:white;
+    padding:80px 0;
 }
 .testimonials h2{
   color:white;
@@ -314,7 +315,7 @@ row-gap: 15%;
   display: flex;
   flex-direction: row;
   justify-content: center;
-  
+  padding-top:80px;
   gap:5%;
 }
 .quote-containers{
@@ -325,12 +326,11 @@ row-gap: 15%;
   font-style: italic;
   line-height: 145%;
   position: relative;
-  margin-top: 10%;
   width:24%;
 }
 .quote-containers::before{
   content:"\201c";
-  font-size: 200px;
+  font-size: 150px;
   display:flex;
   position:absolute;
   top: -5px;
@@ -339,7 +339,8 @@ row-gap: 15%;
 .person-container{
   display:flex;
   align-items: center;
-  margin-top:5%;
+  padding:30px 0;
+  gap:5%;
 }
 .person-container img{
   border-radius:100%;
@@ -347,6 +348,7 @@ row-gap: 15%;
 }
 .subscription{
   background-color: #f4f4f4;
+  padding:80px 0;
 }
 .subscription h2{
   text-transform: uppercase;
@@ -362,6 +364,57 @@ row-gap: 15%;
 .subs-card{
   background-color: #fcfcfc;
   box-shadow: 0 2px 2px #cac5c5;
+  width:25%;
+  margin-top: 5%;
+}
+.price{
+  display:flex;
+  flex-direction: column;
+  
+  padding:5%;
+  border-bottom: 1px solid #e8e8e8;
+}
+.price h3{
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 25px;
+}
+.price span{
+  font-size:300%;
+  font-weight: 100;
+}
+.months {
+  color:#e67e22
+} 
+.per-meal{
+  font-size: 120%;
+ font-weight: 300;
+}
+.detail{
+  padding:5%;
+  border-bottom: 1px solid #e8e8e8;
+}
+
+.list{
+  list-style-type: none;
+  font-size:100%;
   padding:2%;
+}
+.list:before{
+  content:"\2713\0020" ;
+  color: #e67e22;
+}
+.x:before{
+  content:"\2717";
+  font-weight:00;
+
+}
+#emptyp{
+  width:301px;
+}
+.sub-btn{
+  display: flex;
+  padding:5%;
+  justify-content: center;
 }
 /* I know the issue but I don't wanna solve it */
