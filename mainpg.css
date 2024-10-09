@@ -1,0 +1,560 @@
+* {
+  /* Neccessary for all css files*/
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  color: #555;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  text-rendering: optimizeLegibility;
+}
+.header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(Resource-Omnifood-conent/hero.jpg);
+  background-size: cover;
+  height: 100vh;
+  background-position: center;
+  background-attachment: fixed;
+  text-transform: uppercase;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+.hero-text-box {
+  display: flex;
+  flex-direction: column;
+  width: 1140px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+.hero-text-box h1 {
+  font-size: 290%;
+  font-weight: 300;
+  word-spacing: 4%;
+}
+.bttn {
+  display: flex;
+  gap: 20px;
+}
+.logo {
+  height: 100px;
+}
+.navigation {
+  display: flex;
+  /* justify-self: flex-end; */
+}
+a {
+  color: #fff;
+  padding: 10px 10px;
+  font-weight: 300;
+  text-decoration: none;
+}
+a:hover,
+a:active {
+  border-bottom: 3px solid #cf6d17;
+}
+.btn,
+input[type="submit"] {
+  padding: 10px 30px;
+  font-weight: 300;
+  text-decoration: none;
+  border-radius: 200px;
+  color: #fff;
+}
+.btn:hover,
+.btn:active,
+input[type="submit"] {
+  background-color: #cf6d17;
+}
+.btn-full,
+input[type="submit"] {
+  background-color: #e67e22;
+  border: 1px solid #e67e22;
+  color: #fff;
+}
+.btn-ghost {
+  border: 1px solid;
+  color: #e67e22;
+  transition: color 0.2s;
+}
+.btn-full:hover,
+.btn-full:active {
+  border: 1px solid #cf6d17;
+}
+.btn-ghost:hover,
+.btn-ghost:active {
+  border: 1px solid #cf6d17;
+  color: #fff;
+}
+
+h2:after {
+  display: flex;
+  height: 2px;
+  width: 100px;
+  background-color: #e67e22;
+  content: " ";
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.tag {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 5% auto;
+  width: 60%;
+  word-spacing: 4%;
+}
+.tag h2 {
+  font-size: 35px;
+  font-weight: 300;
+  text-transform: uppercase;
+  font-kerning: none;
+}
+.tag p {
+  margin-top: 5%;
+  font-size: 20px;
+}
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 30px;
+}
+.flex-card {
+  display: flex;
+  flex-direction: column;
+  width: 15%;
+  margin-bottom: 5%;
+}
+.flex-card h3 {
+  font-size: 20px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+.flex-card p {
+  margin-top: 10px;
+  font-size: 18px;
+}
+.flex-card ion-icon {
+  color: #e67e22;
+  font-size: 60px;
+}
+.image-container {
+  background-color: black;
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  height: auto;
+}
+.image {
+  flex-basis: 25%;
+  min-width: 20%;
+  overflow: hidden;
+  height: auto;
+}
+
+.image img {
+  width: 100%;
+  opacity: 0.7;
+  transform: scale(1.15);
+  transition: transform 0.5s, opacity 0.5s;
+}
+.image img:hover {
+  opacity: 1;
+  transform: scale(1);
+}
+.page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 5% 0;
+  background-color: #f4f4f4;
+}
+.page h2 {
+  font-size: 40px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+.download-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-left: 15%;
+  max-width: 1140px;
+  margin-top: 5%;
+}
+.downloadbtn {
+  margin-top: 8%;
+}
+.li {
+  display: flex;
+  align-items: center;
+  margin-top: 5%;
+  font-size: 20px;
+}
+.li p {
+  width: 100%;
+  margin-left: 5%;
+}
+.instruct-container {
+  display: flex;
+  flex-direction: column;
+  width: 48%;
+}
+.instruct-container h3 {
+  border: 2px solid #e67e22;
+
+  padding: 10px 17px;
+  border-radius: 100%;
+  color: #e67e22;
+  font-weight: 300;
+}
+#phone {
+  width: 19%;
+  margin-left: 5%;
+}
+
+.btn-app:link,
+.btn-app:visited {
+  border: 0;
+}
+.btn-app img {
+  height: 50px;
+  width: auto;
+  margin-right: 10px;
+}
+.cities h2 {
+  font-size: 40px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+.cities {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5%;
+  height: 10%;
+}
+.city-card-containers {
+  display: flex;
+  flex-grow: 1;
+  flex-wrap: wrap;
+  margin-top: 4%;
+  gap: 4%;
+  width: 1140px;
+  height: 430px;
+}
+.flex-city-cards {
+  display: flex;
+  flex-direction: column;
+  width: 22%;
+  /* height: auto; */
+  column-gap: 10%;
+}
+.flex-city-cards h3 {
+  font-weight: 300;
+  font-size: 25px;
+  text-transform: uppercase;
+}
+.flex-stat a {
+  color: #cf6d17;
+
+  text-decoration: none;
+}
+.flex-stat a:link,
+.flex-stat a:visited {
+  border-bottom: 1px solid #e67e22;
+  padding: 2px 1px;
+}
+
+.flex-city-cards ion-icon {
+  color: #e67e22;
+  /* font-size: 20px; */
+}
+.stat-container {
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  row-gap: 15%;
+  /* align-items: center; */
+}
+.flex-stat {
+  column-gap: 10%;
+
+  display: flex;
+}
+.testimonials {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(Resource-Omnifood-conent/back-customers.jpg);
+  background-attachment: fixed;
+  color: white;
+  padding: 80px 0;
+}
+.testimonials h2 {
+  color: white;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+.test-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 80px;
+  gap: 5%;
+}
+.quote-containers {
+  display: flex;
+  flex-direction: column;
+  font-weight: 300;
+  padding: 2%;
+  font-style: italic;
+  line-height: 145%;
+  position: relative;
+  width: 24%;
+}
+.quote-containers::before {
+  content: "\201c";
+  font-size: 150px;
+  display: flex;
+  position: absolute;
+  top: -5px;
+  left: -5px;
+}
+.person-container {
+  display: flex;
+  align-items: center;
+  padding: 30px 0;
+  gap: 5%;
+}
+.person-container img {
+  border-radius: 100%;
+  width: 50px;
+}
+.subscription {
+  background-color: #f4f4f4;
+  padding: 80px 0;
+}
+.subscription h2 {
+  text-transform: uppercase;
+  font-size: 40px;
+  font-weight: 300;
+  text-align: center;
+}
+.subs-container {
+  display: flex;
+  justify-content: center;
+  gap: 5%;
+}
+.subs-card {
+  background-color: #fcfcfc;
+  box-shadow: 0 2px 2px #cac5c5;
+  width: 25%;
+  margin-top: 5%;
+}
+.price {
+  display: flex;
+  flex-direction: column;
+
+  padding: 5%;
+  border-bottom: 1px solid #e8e8e8;
+}
+.price h3 {
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 25px;
+}
+.price span {
+  font-size: 300%;
+  font-weight: 100;
+}
+.months {
+  color: #e67e22;
+}
+.per-meal {
+  font-size: 120%;
+  font-weight: 300;
+}
+.detail {
+  padding: 5%;
+  border-bottom: 1px solid #e8e8e8;
+}
+
+.list {
+  list-style-type: none;
+  font-size: 100%;
+  padding: 2%;
+}
+.list:before {
+  content: "\2713\0020";
+  color: #e67e22;
+}
+.x:before {
+  content: "\2717";
+  font-weight: 00;
+}
+#emptyp {
+  width: 301px;
+}
+.sub-btn {
+  display: flex;
+  padding: 5%;
+  justify-content: center;
+}
+.form-page {
+  padding-top: 80px;
+  display: flex;
+  flex-direction: column;
+  /* flex-wrap: wrap; */
+}
+.form-page h2 {
+  text-transform: uppercase;
+  font-size: 40px;
+  font-weight: 300;
+  text-align: center;
+}
+.iframe-container{
+display:flex;
+justify-content: flex-end;
+position: relative;
+/* width:100%; */
+padding-top: 40px;
+}
+.form-container {
+  display: flex;
+  flex-wrap: wrap;
+  /* flex-direction: column; */
+  /* align-items: flex-start; */
+  /* align-content: flex-end; */
+  background-color: hsl(0, 0%, 80%, 90%);
+  max-width: 30%;
+  margin-right: 10px;
+  padding: 2% 0;
+  z-index: 10;
+  flex-grow: 1;
+}
+iframe {
+  /* flex-shrink: 1; */
+  position:absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.form-section {
+  display: flex;
+  padding: 1% 5%;
+  width: 100%;
+  align-items: center;
+  gap: 3%;
+}
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+  width: 100%;
+  padding: 7px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+}
+textarea {
+  height: 100px;
+}
+input[type="checkbox"] {
+  margin: 10px 5px 10px 0;
+}
+label {
+  width: 250px;
+}
+input[type="submit"] {
+  justify-self: center;
+}
+.footer {
+  display: flex;
+  flex-direction: column;
+text-align: center;
+  flex-wrap: wrap;
+  background-color: #555;
+  padding: 30px 0;
+  color: #9c9c9c;
+  position: relative;
+  z-index: 10;
+}
+.foot-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 100%;
+ 
+}
+.about-links a {
+  color: #9c9c9c;
+}
+.about-links a:hover,
+.about-links a:active {
+  color: #cbcbcb;
+  border-bottom: 0px;
+}
+.app-links ion-icon {
+  font-size: 25px;
+}
+.app-links #face {
+  color: #9c9c9c;
+}
+.app-links #face:hover,
+.app-links #face:active {
+  border: 0px;
+}
+.app-links #face ion-icon:hover,
+.app-links #face ion-icon:visited {
+  fill: #000079;
+}
+.app-links #twit {
+  color: #9c9c9c;
+}
+.app-links #twit:hover,
+.app-links #twit:active {
+  border: 0px;
+}
+.app-links #twit ion-icon:hover,
+.app-links #twit ion-icon:visited {
+  fill: #289ac4;
+}
+.app-links #tok {
+  color: #9c9c9c;
+}
+.app-links #tok:hover,
+.app-links #tok:active {
+  border: 0px;
+}
+.app-links #tok ion-icon:hover,
+.app-links #tok ion-icon:visited {
+  fill: #ba1e1e;
+}
+.app-links #insta {
+  color: #9c9c9c;
+}
+.app-links #insta:hover,
+.app-links #insta:active {
+  border: 0px;
+}
+.app-links #insta ion-icon:hover,
+.app-links #insta ion-icon:visited {
+  fill: rgb(148, 39, 152);
+}
+/* I know the issue but I don't wanna solve it */
