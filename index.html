@@ -384,14 +384,99 @@
         </div>
       </div>
     </section>
-    <section class="form">
+    <section class="form-page">
       <h2>We're Happy to hear from you</h2>
-      <div class="input-container">
-        <label for="name">Name</label>
-        <input type="text" name="name" id="name" placeholder="Your name" required>
-      </div>
+      <div class="iframe-container">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13004078.75648254!2d-104.6568059439823!3d37.275602428659404!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54eab584e432360b%3A0x1c3bb99243deb742!2sUnited%20States!5e0!3m2!1sen!2sus!4v1614377791913!5m2!1sen!2sus"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+        ></iframe>
 
+        <div class="form-container">
+          <div class="form-section">
+            <label for="name">Name</label>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Your name"
+              required
+            />
+          </div>
+          <div class="form-section">
+            <label for="email">Email</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Your email"
+              required
+            />
+          </div>
+          <div class="form-section">
+            <label for="find-us">How did you find us?</label>
+            <select
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Your email"
+              required
+            >
+              <option value="friends" selected>Friends</option>
+              <option value="SearchEngine">Search Engine</option>
+              <option value="friends">Tik Tok</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+          <div class="form-section">
+            <label>Newsletter</label>
+            <input type="checkbox" name="news" id="news" checked />
+          </div>
+          <div class="form-section">
+            <label>Drop us a line</label>
+
+            <textarea
+              name="message"
+              placeholder="Your message"
+              spellcheck="false"
+            >
+            </textarea>
+          </div>
+          <div class="form-section">
+            <input type="submit" value="Send it!" id="submit-btn" />
+          </div>
+        </div>
+      </div>
     </section>
+    <footer class="footer">
+      <div class="foot-container">
+        <div class="about-links">
+          <a href="#">About us</a>
+          <a href="#">Blog</a>
+          <a href="#">Press</a>
+          <a href="#">IOS App</a>
+          <a href="#">Android App</a>
+        </div>
+        <div class="app-links">
+          <a id="face" href="www.facebook.com"
+            ><ion-icon name="logo-facebook"></ion-icon
+          ></a>
+          <a id="twit" href="www.x.com"
+            ><ion-icon name="logo-twitter"></ion-icon
+          ></a>
+          <a id="tok" href="www.tiktok.com"
+            ><ion-icon name="logo-tiktok"></ion-icon
+          ></a>
+          <a id="insta" href="www.instagram.com"
+            ><ion-icon name="logo-instagram"></ion-icon
+          ></a>
+        </div>
+      </div>
+    </footer>
     <script
       type="module"
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
